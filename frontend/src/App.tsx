@@ -14,7 +14,7 @@ function App() {
     setError(null);
     try {
       // Pour l'instant on garde les ID en dur, on pourra créer un formulaire plus tard
-      const data = await fetchShortestPath('TCL_10435', 'TCL_10437', 'time');
+      const data = await fetchShortestPath('TCL_28486', 'TCL_10202', 'time');
       setRoute(data);
     } catch (err) {
       if (err instanceof Error){
